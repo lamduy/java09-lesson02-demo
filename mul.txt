@@ -1,0 +1,8 @@
+private int mull(int a,int b) throw Exception{
+	if(a*b> Integer.MAX_VALUE){
+
+		throw new Exception("Over Value Int Exceptions");	
+
+	}
+	return a*b;
+}
